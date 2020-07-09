@@ -1,0 +1,154 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin-bottom: 50px;
+}
+header{
+    background-color: #F0FFF0;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+.font-color{
+    color: #413960;
+}
+.menu{
+    display:inline-block;
+}
+.menu a{
+    padding:10px 10px;
+    margin:0 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    display: block;
+    transition: all ease-in-out .4s;
+}
+.menu a:hover{
+    font-size: 16px;
+    border: none;
+    background-color: #21B573;
+    color: #fff !important;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+.banner h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+.banner h1 span{
+    color: #21B573;
+}
+.get-start{
+    padding: 10px 30px;
+    border: 1px solid #21B573;
+    background-color: transparent;
+    border-radius: 30px;
+    transition: all ease-in-out .4s;
+    font-size: 14px;
+}
+.get-start:hover{
+    background-color: #21B573;
+    color: #fff;
+}
+
+.about{
+    height: 270px;
+    border-radius: 10px;
+    background-color: #F8FFFB;
+    transition: all ease-in-out .4s;
+}
+.about:hover{
+    box-shadow: 0 8px 16px rgb(0, 0, 0,.15);
+    background-color: #fff;
+}
+.about h5{
+    font-size: 12px;
+    font-size: 24px;
+}
+
+.card-sizzing{
+    padding: 15px;
+    border: none;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.card-foot{
+    border-top: none;
+    background-color: #fff;
+}
+.card-footer-logo{
+    width: 20px;
+    height: 20px;
+}
+small{
+    font-size: 10px;
+}
+.signup{
+    background-color: #F0FFF0;
+    padding: 50px 0;
+    margin: 0;
+}
+.signup .container{
+    margin-bottom: 0;
+}
+
+footer {
+        background-color: #282531;
+        height: 350px;
+}
+footer .container{
+    margin-bottom: 0;
+}
+footer li{
+    list-style-type: none;
+    color: #fff;
+}
+footer li a,footer p{
+    color: #fff;
+    font-weight: 200;
+}
+footer li a:hover{
+    color: #fff;
+}
+
+@media all and (max-width: 699px) and (min-width: 520px){
+    
+    .about{
+        margin-bottom: 20px;
+    }
+    .menu a{
+        margin-left: 0px;
+        padding-left: 5px;
+    }
+    .menu a:hover{
+        font-size: 16px;
+        border: none;
+        background-color: #21B573;
+        color: #fff !important;
+        padding: 10px 10px;
+        border-radius: 20px;
+    }
+    .container{
+        padding: 0 10px;
+    } 
+.form{
+    margin: 0 10px;
+}
+footer .col-12{
+    text-align: center;
+}
+.banner{
+    margin: 0 10px;
+}
+.banner p,.banner h1{
+    text-align: center;
+}
+.banner .get-start{
+    width: 145px;
+    margin: 20px auto 40px;
+    display: block;
+}
+
+}
